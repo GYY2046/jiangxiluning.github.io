@@ -27,9 +27,19 @@ disqus_url: "http://jiangxiluning.github.io"
 #########################################
 
 # Build settings
+
+
 markdown: kramdown
 highlighter: rouge
 # highlighter: false
+
+github: jiangxiluning
+kramdown:
+   input: GFM
+   hard_wrap: false
+gems:
+   - jekyll-plantuml
+
 plantuml:
   plantuml_jar: _bin/plantuml.jar     # path to plantuml jar
   tmp_folder: _plantuml              # tmp folder to put generated image files

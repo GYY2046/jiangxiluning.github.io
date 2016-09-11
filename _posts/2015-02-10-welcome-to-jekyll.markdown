@@ -301,15 +301,7 @@ Markdown 语法：
 
 - - -
 
-<div style="text-align: center ;">
-{% plantuml %}
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
 
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
-{% endplantuml %}
-</div>
 
 ## MathJax
 

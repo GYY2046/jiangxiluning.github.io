@@ -30,6 +30,9 @@ disqus_url: "http://jiangxiluning.github.io"
 markdown: kramdown
 
 # highlight
-# highlighter: pygments
+highlighter: pygments
 # highlighter: rouge
 # highlighter: false
+
+mermaid:
+  src: 'static/js/mermaid.min.js'

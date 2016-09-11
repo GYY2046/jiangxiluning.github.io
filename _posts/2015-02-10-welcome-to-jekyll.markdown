@@ -5,6 +5,16 @@ date:   2015-02-10 15:14:54
 categories: jekyll
 comments: true
 ---
+
+
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
+
 # Markdown 语法和 MWeb 写作使用说明
 
 ## Markdown 的设计哲学
@@ -328,7 +338,7 @@ $$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 {1+\frac{e^{-8\pi}} {1+\ldots} } } } \\]
 
 
-行内公式： $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
+行内公式： $ \Gamma(n) = (n-1)!\quad\forall n\in\mathbb N $
 
 
 ## 脚注（Footnote）

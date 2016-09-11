@@ -5,16 +5,6 @@ date:   2015-02-10 15:14:54
 categories: jekyll
 comments: true
 ---
-
-
-{% mermaid %}
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-{% endmermaid %}
-
 # Markdown 语法和 MWeb 写作使用说明
 
 ## Markdown 的设计哲学
@@ -311,7 +301,15 @@ Markdown 语法：
 
 - - -
 
+<div style="text-align: center ;">
+{% plantuml %}
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
 
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+{% endplantuml %}
+</div>
 
 ## MathJax
 

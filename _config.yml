@@ -28,11 +28,8 @@ disqus_url: "http://jiangxiluning.github.io"
 
 # Build settings
 markdown: kramdown
-
-# highlight
-highlighter: pygments
-# highlighter: rouge
+highlighter: rouge
 # highlighter: false
-
-mermaid:
-  src: 'static/js/mermaid.min.js'
+plantuml:
+  plantuml_jar: _bin/plantuml.jar     # path to plantuml jar
+  tmp_folder: _plantuml              # tmp folder to put generated image files

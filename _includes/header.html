@@ -25,6 +25,13 @@
         {% endif %}
         <a href="{{ site.baseurl }}/">Home</a></li>
 
+        {% if page.url == "/index.html" %}
+          <li class="active">
+        {% else %}
+          <li>
+        {% endif %}
+        <a href="http://www.500d.me/cvresume/7457234129/">Resumes</a></li>
+
         {% for p in site.pages %}
           {% if p.title %}
             {% if p.url == page.url %}

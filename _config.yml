@@ -29,6 +29,7 @@ disqus_url: "https://jiangxiluning.github.io"
 # duoshuo_url: https://jiangxiluning.github.io
 # Build settings
 
+google_analytics: UA-105221129-1
 
 markdown: kramdown
 highlighter: rouge
